@@ -1,0 +1,194 @@
+.weatherArticle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 4px 15px rgb(1, 20, 0);
+    cursor: pointer;
+}
+
+.loadingMainDiv {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.boardContainer {
+    border: 2px solid rgba(128, 128, 128, 0.589);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.boardArticle {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.board-content {
+    height: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.cultureDiv {
+    width: 500px;
+    margin: 10px;
+}
+
+.cultureImgDiv {
+    height: 70%;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.671);
+}
+
+.cultureImgDiv:hover .cultureImg {
+    scale: 1.1;
+}
+
+.cultureImg {
+    height: 100%;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.cultureDescDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    font-family: 'SDGothic';
+}
+
+.cultureCategory {
+    margin-bottom: 3px;
+    color: gray;
+}
+
+.culturename {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.culturePetEnter {
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+.cultureLike {
+    color: gray;
+}
+
+.bodyBackground {
+    background-color: #e0f0e0;
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'SDGothic';
+    letter-spacing: 2px;
+}
+
+.weather {
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.scroll-container {
+    display: flex;
+    width: 70%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-content {
+    display: inline-block;
+}
+
+.itemDetail {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    height: 220px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-family: 'SDGothic';
+}
+
+
+.item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.weatherImg {
+    padding-left: 0px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.imgDiv {
+    width: 100px;
+}
+
+.time {
+    margin-top: -20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.date {
+    padding-top: 10px;
+    font-weight: 700;
+    margin-top: -9px;
+}
+
+.tmpPop {
+    font-weight: 600;
+    margin-top: -15px;
+}
+
+.tmpPop>span {
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+.table-list tbody {
+    font-family: 'SDGothic';
+    font-weight: 500;
+}
